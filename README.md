@@ -70,12 +70,15 @@ On this Training Tab, clicking the `Start!` button will take you to a series of 
  <img src="Documentation/readme_img/exercise.png" alt="Random Exercise" width="600">
 </p>
 
-Also on the top, we have a `Check Again` button, to check our current configuration. A `Get My Config` button, that will download a **.json** file containing our current answer to the exercise. *This answer will later be submitted to the School's repositories to be graded*. And finally, if all the objectives of the exercise are completed successfully, a `Next level` button will appear so we can move on to the next exercise.
+Also on the top, we have a `Check Again` button, to check our current configuration. A `Get My Config` button, that will download a **.json** file containing our current answer to the exercise. And finally, if all the objectives of the exercise are completed successfully, a `Next level` button will appear so we can move on to the next exercise.
 
 <p align="center">
  <img src="Documentation/readme_img/buttons.png" alt="Action Squares" width="700"><br>
  <img src="Documentation/readme_img/downloads.png" alt="Submit File" width="500">
 </p>
+
+### 📝 Submission details
+> The files downloaded by the `Get My Config` button, will later be submitted to the School's evaluation machine **Moulinette** to be graded. So all 10 exported configuration files (one per level) must be placed at the repository root.
 
 ### 🧮 The Unsong Hero. The In-Terminal Basic Calculator `bc` 
 

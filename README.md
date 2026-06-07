@@ -1,4 +1,4 @@
-<p align="center"><i>This project has been created as part of the 42 curriculum by lde-san-.</i></p>
+<p align="center"><i>This project has been created as part of the 42 curriculum by lde-san-</i></p>
 
 <h1 align="center">🦝🌐 NetPractice 🌐🦝</h1>
 <p align="center"><b><em>Routing Error? More Like User Error.</em></b></p>

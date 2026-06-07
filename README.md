@@ -40,9 +40,9 @@ AI was used as a **supporting tool**, mainly for:
 To complete the project is necessary to extract a number of files from the school's provided material. We download said file, extract its content and execute the training interface from the shell script **run.sh**.
 
 ```
-wget https://school.domain/path_to_file/net_practice.tgz
+wget https://school.domain.42.fr/path_to_file/net_practice.tgz
 
-Connecting to school.domain... connected.
+Connecting to school.domain.42.fr.. connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 424242 (size) [application/octet-stream]
 Saving to: ‘net_practice.tgz’
@@ -59,7 +59,7 @@ tar -xvf net_practice.tgz
 ```
 
 
-### The Unsong Hero. The In-Terminal Basic Calculator `bc` 
+### 🧮 The Unsong Hero. The In-Terminal Basic Calculator `bc` 
 
 Working through this project would have taken weeks if it wasn't for this tool and the way it helps turn decimal values into binary and vice-versa in order to understand what the machine truly sees behind the scenes.
 

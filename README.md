@@ -1,13 +1,13 @@
 <p align="center"><i>This project has been created as part of the 42 curriculum by lde-san-.</i></p>
 
 <h1 align="center">🦝🌐 NetPractice 🌐🦝</h1>
-<p align="center"><b><em>Routing Error? More Like User Error</em></b></p>
+<p align="center"><b><em>Routing Error? More Like User Error.</em></b></p>
 
 ---
 
 ## 🎯 Description
 
-**NetPractice** is a practical project that provides the base for IPv4 network administration, subnetting, and TCP/IP configuration. The primary objective of this project is to understand the fundamentals of network architecture, IP routing, and how machines physically communicate across small local networks and the broader internet. 
+**NetPractice** is a practical project that provides the basis for IPv4 network administration, subnetting, and TCP/IP configuration. The primary objective of this project is to understand the fundamentals of network architecture, IP routing, and how machines physically communicate across small local networks and the broader internet. 
 
 By configuring virtual interfaces, switches, and routing tables, the project helps create a deeper understanding of subnet boundaries, the mathematical limits of IP addresses, and the strict rules that govern traffic flow (and why routers panic when those rules are broken).
 
@@ -15,7 +15,7 @@ By configuring virtual interfaces, switches, and routing tables, the project hel
 - IPv4 Addressing & CIDR Notation:
 > Understanding 32-bit addresses and utilizing Classless Inter-Domain Routing notation (e.g., `/26`, `/30`) to define network "locks" and host boundaries.
 - Subnet Boundary Calculation:
-> Learning to mathematically slice the 0-255 address space into perfectly adjacent, non-overlapping segments, that make possible for routers to divert information without needing to analize the entirety of the IP address.
+> Learning to mathematically slice the 0-255 address space into perfectly adjacent, non-overlapping segments, that make it possible for routers to divert information without needing to analize the entirety of the IP address.
 - Routing Table Configuration:
 > Establishing two-way communication streets, default gateways, and utilizing the `0.0.0.0/0` address to route traffic out to the Internet.
 - Overlap Diagnostics (Avoiding MIMEs):
@@ -35,13 +35,33 @@ AI was used as a **supporting tool**, mainly for:
  - 🔍 Conceptual reviewing / translating technical language into analogies.
  - 💣 Preventing sanity loss when trying to figure out why my `127.X.X.X` or `10.X.X.X` IPs are not working as a "normal".
 
-## 🛠️ Instructions & Evaluation Utilities
+## 🛠️ Instructions & Tools
 
-Since this project consists of configuring a web interface rather than compiling C code, there is no Makefile. However, during the evaluation, **you are not allowed to use external tools or online subnet calculators.** You are, however, allowed to use `bc` (Basic Calculator) in the terminal.
+To complete the project is necessary to extract a number of files from the school's provided material. We download said file, extract its content and execute the training interface from the shell script **run.sh**.
 
-### The `bc` Cheat Codes 🧮
+```
+wget https://school.domain/path_to_file/net_practice.tgz
 
-Make sure you have your terminal open during the evaluation. 
+Connecting to school.domain... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 424242 (size) [application/octet-stream]
+Saving to: ‘net_practice.tgz’
+
+net_practice.tgz    100%[=============================>]   size  4.2MB/s    in 0.42s    
+
+today now (4.2 MB/s) - ‘net_practice.tgz’ saved
+```
+```
+tar -xvf net_practice.tgz
+```
+```
+./run.sh
+```
+
+
+### The Unsong Hero. The In-Terminal Basic Calculator `bc` 
+
+Working through this project would have taken weeks if it wasn't for this tool and the way it helps turn decimal values into binary and vice-versa in order to understand what the machine truly sees behind the scenes.
 
 • **Convert Decimal to Binary** (To visualize subnet locks):
 

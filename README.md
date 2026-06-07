@@ -114,13 +114,13 @@ Further details, conclusions, sources and research notes may be found below and 
 
 - Understanding the Concepts:<br>
 
-* [TCP/IP & OSI models](https://www.youtube.com/watch?v=3b_TAYtzuho)
-* [OSI Model](https://www.youtube.com/watch?v=vv4y_uOneC0)
-* [Binary Conversion](https://www.rapidtables.com/convert/number/binary-to-decimal.html)
+> - [TCP/IP & OSI models](https://www.youtube.com/watch?v=3b_TAYtzuho)
+> - [OSI Model](https://www.youtube.com/watch?v=vv4y_uOneC0)
+> - [Binary Conversion](https://www.rapidtables.com/convert/number/binary-to-decimal.html)
 
 - Focus Boost:<br>
-* [Background Noise](https://www.youtube.com/watch?v=kN-iEJ3Sbsc&list=PLcL9r1K3TSwpOVyQKP1MruSuY-NS99iQY)
-* [Foreground Noise](https://open.spotify.com/playlist/5O5q1xG6hNt7NDA8tmT2KJ?si=c9f448d17bba40dc)<br>
+> - [Background Noise](https://www.youtube.com/watch?v=kN-iEJ3Sbsc&list=PLcL9r1K3TSwpOVyQKP1MruSuY-NS99iQY)
+> - [Foreground Noise](https://open.spotify.com/playlist/5O5q1xG6hNt7NDA8tmT2KJ?si=c9f448d17bba40dc)<br>
 
 ---
 

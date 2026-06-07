@@ -73,8 +73,8 @@ On this Training Tab, clicking the `Start!` button will take you to a series of 
 Also on the top, we have a `Check Again` button, to check our current configuration. A `Get My Config` button, that will download a **.json** file containing our current answer to the exercise. *This answer will later be submitted to the School's repositories to be graded*. And finally, if all the objectives of the exercise are completed successfully, a `Next level` button will appear so we can move on to the next exercise.
 
 <p align="center">
- <img src="Documentation/readme_img/buttons.png" alt="Action Squares" width="500">
- <img src="Documentation/readme_img/downloads.png" alt="Submit File" width="300">
+ <img src="Documentation/readme_img/buttons.png" alt="Action Squares" width="700"><br>
+ <img src="Documentation/readme_img/downloads.png" alt="Submit File" width="500">
 </p>
 
 ### 🧮 The Unsong Hero. The In-Terminal Basic Calculator `bc` 

@@ -111,13 +111,14 @@ This project required research on the following topics:
 - OSI layers.
 
 Further details, conclusions, sources and research notes may be found below and on the project's documentation in the repository.
-<br>Understanding the Concepts:<br>
+
+- Understanding the Concepts:<br>
 
 * [TCP/IP & OSI models](https://www.youtube.com/watch?v=3b_TAYtzuho)
 * [OSI Model](https://www.youtube.com/watch?v=vv4y_uOneC0)
 * [Binary Conversion](https://www.rapidtables.com/convert/number/binary-to-decimal.html)
 
-<br>Focus Boost:<br>
+- Focus Boost:<br>
 * [Background Noise](https://www.youtube.com/watch?v=kN-iEJ3Sbsc&list=PLcL9r1K3TSwpOVyQKP1MruSuY-NS99iQY)
 * [Foreground Noise](https://open.spotify.com/playlist/5O5q1xG6hNt7NDA8tmT2KJ?si=c9f448d17bba40dc)<br>
 

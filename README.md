@@ -1,7 +1,7 @@
 <p align="center"><i>This project has been created as part of the 42 curriculum by lde-san-.</i></p>
 
 <h1 align="center">🦝🌐 NetPractice 🌐🦝</h1>
-<p align="center"><b><em>Hopefully distinct from a Multiple Interface Match Error</em></b></p>
+<p align="center"><b><em>Routing Error? More Like User Error</em></b></p>
 
 ---
 
@@ -31,7 +31,7 @@ AI was used as a **supporting tool**, mainly for:
 
  - 📘 General documentation lookup *(e.g., standardizing RFC protocols, understanding the physical limitations of binary subnet masks)*
  - 🔍 Conceptual reviewing / translating notoriously dry networking math into logical, plain-English analogies *(like the Post Office delivery trucks)*.
- - 💣 Preventing sanity loss when trying to figure out why `.98` wouldn't fit inside a `/26` subnet limit.
+ - 💣 Preventing sanity loss when trying to figure out why my `127.X.X.X` or `10.X.X.X` IPs are not working as a "normal".
 
 ## 🛠️ Instructions & Evaluation Utilities
 
@@ -42,8 +42,44 @@ Since this project consists of configuring a web interface rather than compiling
 Make sure you have your terminal open during the evaluation. 
 
 • **Convert Decimal to Binary** (To visualize subnet locks):
-```bash
+
+```
 bc
 obase=2
 192
 # Output: 11000000
+```
+
+• **Convert Binary to Decimal** (To calculate maximum ranges):
+
+```
+bc
+ibase=2
+11111111
+# Output: 255
+```
+---
+
+## 🤖 Resources
+
+<br>Understanding the Concepts:<br>
+
+* [TCP/IP & OSI models](https://www.youtube.com/watch?v=3b_TAYtzuho)
+* [OSI Model](https://www.youtube.com/watch?v=vv4y_uOneC0)
+* [Binary Conversion](https://www.rapidtables.com/convert/number/binary-to-decimal.html)
+
+<br>Focus Boost:<br>
+* [Background Noise](https://www.youtube.com/watch?v=kN-iEJ3Sbsc&list=PLcL9r1K3TSwpOVyQKP1MruSuY-NS99iQY)
+* [Foreground Noise](https://open.spotify.com/playlist/5O5q1xG6hNt7NDA8tmT2KJ?si=c9f448d17bba40dc)<br>
+
+---
+
+## 🧾 Final Notes 🦝💜
+
+If you made it this far…
+
+Merry Christmas. Take a break. Drink water. Maybe eat an arepa.
+
+Don’t let [Glutto](https://github.com/Raccoonatic/Glutto-The-Fox) eat them all.
+
+💥🧡✨

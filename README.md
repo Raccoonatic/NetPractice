@@ -15,7 +15,7 @@ By configuring virtual interfaces, switches, and routing tables, the project hel
 - IPv4 Addressing & CIDR Notation:
 > Understanding 32-bit addresses and utilizing Classless Inter-Domain Routing notation (e.g., `/26`, `/30`) to define network "locks" and host boundaries.
 - Subnet Boundary Calculation:
-> Learning to mathematically slice the 0-255 address space into perfectly adjacent, non-overlapping segments, that make it possible for routers to divert information without needing to analize the entirety of the IP address.
+> Learning to mathematically slice the 0-255 address space into perfectly adjacent, non-overlapping segments, that make it possible for routers to divert information without needing to analyze the entirety of the IP address.
 - Routing Table Configuration:
 > Establishing two-way communication streets, default gateways, and utilizing the `0.0.0.0/0` address to route traffic out to the Internet.
 - Overlap Diagnostics (Avoiding MIMEs):
@@ -31,15 +31,15 @@ By configuring virtual interfaces, switches, and routing tables, the project hel
 
 AI was used as a **supporting tool**, mainly for:
 
- - 📘 General documentation lookup *(e.g., standardizing RFC protocols, Disecting Acronyms, understanding the physical limitations of binary subnet masks)*
+ - 📘 General documentation lookup *(e.g., standardizing RFC protocols, Dissecting Acronyms, understanding the physical limitations of binary subnet masks)*
  - 🔍 Conceptual reviewing / translating technical language into analogies.
  - 💣 Preventing sanity loss when trying to figure out why my `127.X.X.X` or `10.X.X.X` IPs are not working as a "normal".
 
 ## 🛠️ Instructions & Tools
 
-To complete the project is necessary to extract a number of files from the school's provided material. We download said file, extract its content and execute the training interface from the shell script **run.sh**.
+To complete the project, it is necessary to extract a number of files from the school's provided material. We download said file, extract its content and execute the training interface from the shell script **run.sh**.
 
-```
+```bash
 wget https://school.domain.42.fr/path_to_file/net_practice.tgz
 
 Connecting to school.domain.42.fr.. connected.
@@ -51,10 +51,10 @@ net_practice.tgz    100%[=============================>]   size  4.2MB/s    in 0
 
 today now (4.2 MB/s) - ‘net_practice.tgz’ saved
 ```
-```
+```bash
 tar -xvf net_practice.tgz
 ```
-```
+```bash
 ./run.sh
 ```
 
@@ -64,7 +64,7 @@ When you run the `run.sh` executable, a window of your default browser opens up,
  <img src="Documentation/readme_img/login.png" alt="Login Window" width="600">
 </p>
 
-On this Training Tab, clicking the `Start!` button will take you to a series of exercises with increasing difficulty. Like the one we can see below. With the goals in the top telling us the communiation routes that we need to set up, and with a **log** section on the right that helps visualize when an error occurs.
+On this Training Tab, clicking the `Start!` button will take you to a series of exercises with increasing difficulty. Like the one we can see below. With the goals in the top telling us the communication routes that we need to set up, and with a **log** section on the right that helps visualize when an error occurs.
 
 <p align="center">
  <img src="Documentation/readme_img/exercise.png" alt="Random Exercise" width="600">
@@ -80,7 +80,7 @@ Also on the top, we have a `Check Again` button, to check our current configurat
 ### 📝 Submission details
 > The files downloaded by the `Get My Config` button, will later be submitted to the School's evaluation machine **Moulinette** to be graded. So all 10 exported configuration files (one per level) must be placed at the repository root.
 
-### 🧮 The Unsong Hero. The In-Terminal Basic Calculator `bc` 
+### 🧮 The Unsung Hero. The In-Terminal Basic Calculator `bc` 
 
 Working through this project would have taken weeks if it wasn't for this tool and the way it helps turn decimal values into binary and vice-versa in order to understand what the machine truly sees behind the scenes.
 

@@ -7,21 +7,23 @@
 
 ## 🎯 Description
 
-**NetPractice** is a practical introduction to IPv4 network administration, subnetting, and TCP/IP configuration, built for the 42 School curriculum. The primary objective of this project is to understand the fundamentals of network architecture, IP routing, and how machines physically communicate across small local networks and the broader internet. 
+**NetPractice** is a practical project that provides the base for IPv4 network administration, subnetting, and TCP/IP configuration. The primary objective of this project is to understand the fundamentals of network architecture, IP routing, and how machines physically communicate across small local networks and the broader internet. 
 
 By configuring virtual interfaces, switches, and routing tables, the project helps create a deeper understanding of subnet boundaries, the mathematical limits of IP addresses, and the strict rules that govern traffic flow (and why routers panic when those rules are broken).
 
 ### 🧠 *Core Architecture & Concepts:*
 - IPv4 Addressing & CIDR Notation:
-> Understanding 32-bit addresses and utilizing Classless Inter-Domain Routing (e.g., `/26`, `/30`) to define network "locks" and host boundaries.
+> Understanding 32-bit addresses and utilizing Classless Inter-Domain Routing notation (e.g., `/26`, `/30`) to define network "locks" and host boundaries.
 - Subnet Boundary Calculation:
-> Using the Block Size / "Magic Number" method to mathematically slice the 0-255 address space into perfectly adjacent, non-overlapping segments.
+> Learning to mathematically slice the 0-255 address space into perfectly adjacent, non-overlapping segments, that make possible for routers to divert information without needing to analize the entirety of the IP address.
 - Routing Table Configuration:
 > Establishing two-way communication streets, default gateways, and utilizing the `0.0.0.0/0` address to route traffic out to the Internet.
 - Overlap Diagnostics (Avoiding MIMEs):
-> Diagnosing and fixing Multiple Interface Match Errors by ensuring a router's delivery zones (network blocks) never intersect or swallow each other.
+> Diagnosing and fixing *Multiple Interface Match Errors* by ensuring a router's delivery zones (network blocks) never intersect.
 - Protocol Fundamentals:
-> Differentiating between the TCP 3-Way Handshake (reliable, tracked data) vs. UDP (fast, untracked data), as well as understanding special reserved blocks like Loopback (`127.0.0.0/8`) and Private IPs (RFC 1918).
+> Differentiating between the TCP 3-Way Handshake (reliable, tracked data) vs. UDP (fast, untracked data).
+- Special IPs:
+> Understanding special reserved blocks like Loopback (`127.X.X.X`) and Private IPs (RFC 1918).
 
 ---
 
@@ -29,8 +31,8 @@ By configuring virtual interfaces, switches, and routing tables, the project hel
 
 AI was used as a **supporting tool**, mainly for:
 
- - 📘 General documentation lookup *(e.g., standardizing RFC protocols, understanding the physical limitations of binary subnet masks)*
- - 🔍 Conceptual reviewing / translating notoriously dry networking math into logical, plain-English analogies *(like the Post Office delivery trucks)*.
+ - 📘 General documentation lookup *(e.g., standardizing RFC protocols, Disecting Acronyms, understanding the physical limitations of binary subnet masks)*
+ - 🔍 Conceptual reviewing / translating technical language into analogies.
  - 💣 Preventing sanity loss when trying to figure out why my `127.X.X.X` or `10.X.X.X` IPs are not working as a "normal".
 
 ## 🛠️ Instructions & Evaluation Utilities
@@ -61,6 +63,16 @@ ibase=2
 ---
 
 ## 🤖 Resources
+
+This project required research on the following topics:
+- TCP/IP addressing.
+- Subnet Masks.
+- Default Gateways.
+- Routers and Routing Tables.
+- Switches.
+- OSI layers.
+
+Further details, conclusions, sources and research notes may be found below and on the project's documentation in the repository.
 
 <br>Understanding the Concepts:<br>
 

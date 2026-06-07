@@ -52,7 +52,7 @@ net_practice.tgz    100%[=============================>]   size  4.2MB/s    in 0
 today now (4.2 MB/s) - ‘net_practice.tgz’ saved
 ```
 ```bash
-tar -xvf net_practice.tgz
+tar -xvzf net_practice.tgz
 ```
 ```bash
 ./run.sh

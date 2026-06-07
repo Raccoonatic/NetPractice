@@ -61,7 +61,9 @@ tar -xvf net_practice.tgz
 When you run the `run.sh` executable, a window of your default browser opens up, prompting the user to enter their 42 School intra login to start the practice:
 
 ![Login Window](Documentation/readme_img/login.png)
-<img src="Documentation/readme_img/login.png" alt="Login Window" width="600" align="center">
+<p align="center">
+ <img src="Documentation/readme_img/login.png" alt="Login Window" width="600">
+</p>
 
 On this Training Tab, clicking the `Start!` button will take you to a series of exercises with increasing difficulty. Like the one we can see below. With the goals in the top telling us the communiation routes that we need to set up, and with a **log** section on the right that helps visualize when an error occurs.
 

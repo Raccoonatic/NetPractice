@@ -60,20 +60,22 @@ tar -xvf net_practice.tgz
 
 When you run the `run.sh` executable, a window of your default browser opens up, prompting the user to enter their 42 School intra login to start the practice:
 
-![Login Window](Documentation/readme_img/login.png)
 <p align="center">
  <img src="Documentation/readme_img/login.png" alt="Login Window" width="600">
 </p>
 
 On this Training Tab, clicking the `Start!` button will take you to a series of exercises with increasing difficulty. Like the one we can see below. With the goals in the top telling us the communiation routes that we need to set up, and with a **log** section on the right that helps visualize when an error occurs.
 
-![Random Exercise](Documentation/readme_img/exercise.png)
+<p align="center">
+ <img src="Documentation/readme_img/exercise.png" alt="Random Exercise" width="600">
+</p>
 
 Also on the top, we have a `Check Again` button, to check our current configuration. A `Get My Config` button, that will download a **.json** file containing our current answer to the exercise. *This answer will later be submitted to the School's repositories to be graded*. And finally, if all the objectives of the exercise are completed successfully, a `Next level` button will appear so we can move on to the next exercise.
 
-![Action Squares](Documentation/readme_img/buttons.png)
-
-![Submit File](Documentation/readme_img/downloads.png)
+<p align="center">
+ <img src="Documentation/readme_img/buttons.png" alt="Action Squares" width="500">
+ <img src="Documentation/readme_img/downloads.png" alt="Submit File" width="300">
+</p>
 
 ### 🧮 The Unsong Hero. The In-Terminal Basic Calculator `bc` 
 

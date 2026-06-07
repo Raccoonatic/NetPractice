@@ -111,7 +111,6 @@ This project required research on the following topics:
 - OSI layers.
 
 Further details, conclusions, sources and research notes may be found below and on the project's documentation in the repository.
-
 <br>Understanding the Concepts:<br>
 
 * [TCP/IP & OSI models](https://www.youtube.com/watch?v=3b_TAYtzuho)

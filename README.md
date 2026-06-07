@@ -139,6 +139,6 @@ Don’t let [Glutto](https://github.com/Raccoonatic/Glutto-The-Fox) eat them all
 
 <p align="center">
   <a href="#--netpractice--">
-    <img src="Documentation/readme_img/Thanks.png" alt="Back to top" width="600">
+    <img src="Documentation/readme_img/Thanks.png" alt="Back to top" width="400">
   </a>
 </p>

@@ -113,7 +113,7 @@ This project required research on the following topics:
 - Switches.
 - OSI layers.
 
-Further details, conclusions, sources and research notes may be found below and on the project's documentation in the repository.
+Further details, conclusions, sources and research notes may be found below and on the [Project's Documentation](https://github.com/Raccoonatic/NetPractice/blob/main/Documentation/NetPractice_lde-san-.pdf) in the repository.
 
 - Understanding the Concepts:<br>
 
